@@ -43,7 +43,7 @@ void Start(Jogador *jogador, Maquina *maquina)
         printf("            1 - Iniciar\n            2 - Regras\n            0 - Sair\n\n");
         printf("####################################\n\n");
 
-        escolha = getch(); // Uso o getch para que o usuario nao tenha que apertar o ENTER. Getch() vai retornar o valor da caracter apertado na tabela ASCII
+        escolha = getch(); // Uso o getch para que o usuario nao tenha que apertar o ENTER. Getch() vai retornar o valor do caracter apertado na tabela ASCII
 
         system("cls || clear"); // Apaga o que já foi printado da tela
 
